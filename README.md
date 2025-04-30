@@ -28,7 +28,7 @@ as defined in the [push-distr workflow](.github/workflows/push-distr.yaml).
 
 ## How it works
 
-The GitHub workflows behave differently in different scenarios. For example, when opening a PR after or during feature development, 
+The GitHub workflows *behave differently* in different scenarios. For example, when opening a PR after or during feature development, 
 we want the docker build to run, but of course the built image should not be published or released yet.
 
 ### On Pull Request
