@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.3.0](https://github.com/jakepage91/hello-distr/compare/0.2.2...0.3.0) (2025-07-01)
+
+
+### Features
+
+* update Docker registry paths and revert push-distr workflow ([d498e53](https://github.com/jakepage91/hello-distr/commit/d498e5323c736e78a50dee929cd3c0482fccce44))
+* update docker-compose to use jakepage91 registry ([ab237dd](https://github.com/jakepage91/hello-distr/commit/ab237dd65bb061db34a49f503be817654a62e3ed))
+
+
+### Bug Fixes
+
+* simplify push-distr workflow to resolve variable reference issue ([7f6c78e](https://github.com/jakepage91/hello-distr/commit/7f6c78e0d20744666cba51929c320a1a61c4231b))
+
 ## [0.2.2](https://github.com/jakepage91/hello-distr/compare/0.2.1...0.2.2) (2025-07-01)
 
 
