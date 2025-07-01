@@ -76,8 +76,7 @@ directly paste it into the `push-distr.yaml` workflow file (but please never dir
 See [distr-create-version-action docs](https://github.com/glasskube/distr-create-version-action/blob/main/README.md#usage) for further information regarding
 this GitHub action. 
 
-Note that in this example repo, we set the `api-base` to `https://demo.distr.sh/api/v1`. In order to make use of this in production, 
-you should remove this line to use the default Distr Hub (`app.distr.sh`) instead. 
+This repo is configured to use the production Distr Hub at `https://app.distr.sh/api/v1` for releasing new versions. 
 
 ### Common Requirements
 
@@ -154,3 +153,4 @@ docker compose up
 ```
 
 To start the backend or frontend, please consult the respective `README`s in the subdirectories. 
+
