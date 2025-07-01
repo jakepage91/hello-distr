@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.3.1](https://github.com/jakepage91/hello-distr/compare/0.3.0...0.3.1) (2025-07-01)
+
+
+### Bug Fixes
+
+* remove matrix strategy from push-distr workflow ([0f8d65e](https://github.com/jakepage91/hello-distr/commit/0f8d65eeb3be01074b3a778d45c6f220fb877cf7))
+
+
+### Docs
+
+* add setup completion note ([b1692d9](https://github.com/jakepage91/hello-distr/commit/b1692d92c96e2eb03886d84447dff5f079131e88))
+
 ## [0.3.0](https://github.com/jakepage91/hello-distr/compare/0.2.2...0.3.0) (2025-07-01)
 
 
