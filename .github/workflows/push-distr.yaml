@@ -14,8 +14,8 @@ jobs:
         include:
           - DISTR_TOKEN_SECRET: DISTR_TOKEN
             DISTR_APPLICATION_ID_VAR:  DISTR_APPLICATION_ID
-          - DISTR_TOKEN_SECRET: DISTR_TOKEN_PMIG
-            DISTR_APPLICATION_ID_VAR:  DISTR_APPLICATION_ID_PMIG
+          - DISTR_TOKEN_SECRET: DISTR_TOKEN_JP
+            DISTR_APPLICATION_ID_VAR:  DISTR_APPLICATION_ID_JP
 
     name: Push Released Docker Compose to Distr
     timeout-minutes: 5
