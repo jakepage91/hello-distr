@@ -7,6 +7,8 @@ Python API.
 
 Feel free to fork it, tinker around a bit and find out what Distr can offer for your on premises software. 
 
+> **Note**: This repository has been successfully configured with GitHub Actions and Distr Hub integration for automated releases and deployments.
+
 ## Tools
 
 We make use of: 
@@ -152,5 +154,5 @@ You can install Postgres locally or use Docker to run it in a container.
 docker compose up
 ```
 
-To start the backend or frontend, please consult the respective `README`s in the subdirectories. 
+To start the backend or frontend, please consult the respective `README`s in the subdirectories.
 
