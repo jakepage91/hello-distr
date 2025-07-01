@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.2](https://github.com/jakepage91/hello-distr/compare/0.2.1...0.2.2) (2025-07-01)
+
+
+### Bug Fixes
+
+* remove duplicate matrix entry in push-distr workflow ([fceb657](https://github.com/jakepage91/hello-distr/commit/fceb6573573d1fbc3d0a1b1d440b7fd106bee52c))
+
 ## [0.2.1](https://github.com/jakepage91/hello-distr/compare/0.2.0...0.2.1) (2025-07-01)
 
 
