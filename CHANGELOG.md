@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/jakepage91/hello-distr/compare/0.2.0...0.2.1) (2025-07-01)
+
+
+### Docs
+
+* update README to reflect production distr API usage ([35ea64b](https://github.com/jakepage91/hello-distr/commit/35ea64bb70b94ff1aa9caec019354c6707ef32a6))
+
 ## [0.2.0](https://github.com/jakepage91/hello-distr/compare/0.1.10...0.2.0) (2025-07-01)
 
 
