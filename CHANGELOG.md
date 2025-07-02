@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/jakepage91/hello-distr/compare/0.3.1...0.4.0) (2025-07-02)
+
+
+### Features
+
+* introduce database connection error for demo ([fd6347d](https://github.com/jakepage91/hello-distr/commit/fd6347dacc1f8ad17f0709f0443d4dd163e9af62))
+
 ## [0.3.1](https://github.com/jakepage91/hello-distr/compare/0.3.0...0.3.1) (2025-07-01)
 
 
