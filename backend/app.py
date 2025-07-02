@@ -3,7 +3,9 @@ from flask_sqlalchemy import SQLAlchemy
 from os import environ
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = environ.get('DB_URL')
+# TODO: DEMO ERROR - Fix this! Should be DB_URL not DB_URL_INVALID_FOR_DEMO
+# This will cause the backend to fail connecting to the database
+app.config['SQLALCHEMY_DATABASE_URI'] = environ.get('DB_URL_INVALID_FOR_DEMO')
 db = SQLAlchemy(app)
 
 class Message(db.Model):
