@@ -1,10 +1,12 @@
 # note: the compose project name will be overridden by the distr agent, to create a unique name
 name: hello-distr
 
-# note: only share non-sensitive data to avoid accidental exposure of sensitive values (like passwords) to other containers
+# note: shared environment variables for the application
 x-shared-env: &shared-env
   HELLO_DISTR_HOST: ${HELLO_DISTR_HOST:?error}
   HELLO_DISTR_DB_NAME: ${HELLO_DISTR_DB_NAME:?error}
+  HELLO_DISTR_DB_USER: ${HELLO_DISTR_DB_USER:?error}
+  HELLO_DISTR_DB_PASSWORD: ${HELLO_DISTR_DB_PASSWORD:?error}
 
 services:
   postgres:
@@ -29,7 +31,7 @@ services:
     image: ghcr.io/jakepage91/hello-distr/backend:0.5.0 # x-release-please-version
     environment:
       <<: *shared-env
-      DB_URL: postgresql://${HELLO_DISTR_DB_USER:?error}:${HELLO_DISTR_DB_PASSWORD:?error}@postgres/${HELLO_DISTR_DB_NAME:?error}?sslmode=disable
+      DB_URL: postgresql://${HELLO_DISTR_DB_USER}:${HELLO_DISTR_DB_PASSWORD}@postgres/${HELLO_DISTR_DB_NAME}?sslmode=disable
     depends_on:
       postgres:
         condition: service_healthy
