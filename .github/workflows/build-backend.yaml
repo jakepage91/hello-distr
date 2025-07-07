@@ -4,14 +4,14 @@ name: Build Backend
 
 on:
   pull_request:
+    paths:
+      - backend/**
+      - .github/workflows/build-backend.yaml
   push:
     branches:
       - "*"
     tags:
       - "*"
-    paths:
-      - backend/**
-      - .github/workflows/build-backend.yaml
 
 jobs:
   build:

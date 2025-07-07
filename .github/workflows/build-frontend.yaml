@@ -4,14 +4,14 @@ name: Build Frontend
 
 on:
   pull_request:
+    paths:
+      - frontend/**
+      - .github/workflows/build-frontend.yaml
   push:
     branches:
       - "*"
     tags:
       - "*"
-    paths:
-      - frontend/**
-      - .github/workflows/build-frontend.yaml
 
 jobs:
   build:

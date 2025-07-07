@@ -4,14 +4,14 @@ name: Build Proxy
 
 on:
   pull_request:
+    paths:
+      - proxy/**
+      - .github/workflows/build-proxy.yaml
   push:
     branches:
       - "*"
     tags:
       - "*"
-    paths:
-      - proxy/**
-      - .github/workflows/build-proxy.yaml
 
 jobs:
   build:
