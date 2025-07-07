@@ -28,7 +28,7 @@ services:
       - app_network
 
   backend:
-    image: ghcr.io/jakepage91/hello-distr/backend:0.5.0 # x-release-please-version
+    image: ghcr.io/jakepage91/hello-distr/backend:0.4.0 # x-release-please-version
     environment:
       <<: *shared-env
       DB_URL: postgresql://${HELLO_DISTR_DB_USER}:${HELLO_DISTR_DB_PASSWORD}@postgres/${HELLO_DISTR_DB_NAME}?sslmode=disable
@@ -40,7 +40,7 @@ services:
       - app_network
 
   frontend:
-    image: ghcr.io/jakepage91/hello-distr/frontend:0.5.0 # x-release-please-version
+    image: ghcr.io/jakepage91/hello-distr/frontend:0.4.0 # x-release-please-version
     environment:
       <<: *shared-env
       NEXT_PUBLIC_API_URL: 'http://${HELLO_DISTR_HOST:?error}/api'
@@ -53,7 +53,7 @@ services:
       - app_network
 
   proxy:
-    image: ghcr.io/jakepage91/hello-distr/proxy:0.5.0 # x-release-please-version
+    image: ghcr.io/jakepage91/hello-distr/proxy:0.4.0 # x-release-please-version
     environment:
       <<: *shared-env
       HOST: ${HELLO_DISTR_HOST:?error}
