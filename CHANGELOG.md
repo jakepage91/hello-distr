@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.2](https://github.com/jakepage91/hello-distr/compare/0.5.1...0.5.2) (2025-07-07)
+
+
+### Bug Fixes
+
+* ensure Docker images are built on every release tag ([23abc86](https://github.com/jakepage91/hello-distr/commit/23abc865fb1f2255eee304dd444d95c89f7c2e15))
+
 ## [0.5.1](https://github.com/jakepage91/hello-distr/compare/0.5.0...0.5.1) (2025-07-07)
 
 
