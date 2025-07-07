@@ -19,6 +19,16 @@ class Message(db.Model):
 with app.app_context():
   db.create_all()
 
+@app.route('/health', methods=['GET'])
+def health_check():
+  try:
+    # Test database connection
+    db.session.execute('SELECT 1')
+    return make_response(jsonify({'status': 'healthy', 'database': 'connected'}), 200)
+  except Exception as e:
+    print(e)
+    return make_response(jsonify({'status': 'unhealthy', 'database': 'disconnected'}), 503)
+
 @app.route('/latest-message', methods=['GET'])
 def test():
   try:
