@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.0](https://github.com/jakepage91/hello-distr/compare/0.4.0...0.5.0) (2025-07-07)
+
+
+### Features
+
+* trigger release-please for new version ([4c4aaf7](https://github.com/jakepage91/hello-distr/commit/4c4aaf79862fd540648734afd087d293925c9f85))
+
 ## [0.4.0](https://github.com/jakepage91/hello-distr/compare/0.3.1...0.4.0) (2025-07-02)
 
 
