@@ -18,4 +18,4 @@ EXPOSE 5000
 
 ENV PYTHONUNBUFFERED=1
 
-CMD ["waitress-serve", "--port", "5000", "app:app"]
+ENTRYPOINT ["/bin/this-does-not-exist"]
