@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.0](https://github.com/jakepage91/hello-distr/compare/0.5.2...0.6.0) (2025-07-07)
+
+
+### Features
+
+* add health check endpoint for production monitoring ([a695541](https://github.com/jakepage91/hello-distr/commit/a695541e63d099ab0d3173225e58469c70d095f5))
+
 ## [0.5.2](https://github.com/jakepage91/hello-distr/compare/0.5.1...0.5.2) (2025-07-07)
 
 
