@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.5.1](https://github.com/jakepage91/hello-distr/compare/0.5.0...0.5.1) (2025-07-07)
+
+
+### Bug Fixes
+
+* add missing DB environment variables to shared-env section ([4709e63](https://github.com/jakepage91/hello-distr/commit/4709e631802a80cfacd43d062a15bd56d83fcd14))
+* correct Dockerfile entrypoints and backend database configuration ([d791d34](https://github.com/jakepage91/hello-distr/commit/d791d34cb2500432536349fb5eac04a330f41358))
+* trigger a new release ([c148e8c](https://github.com/jakepage91/hello-distr/commit/c148e8c4543383c4c04525453a3d3759b292518d))
+
 ## [0.5.0](https://github.com/jakepage91/hello-distr/compare/0.4.0...0.5.0) (2025-07-07)
 
 
