@@ -155,4 +155,3 @@ docker compose up
 ```
 
 To start the backend or frontend, please consult the respective `README`s in the subdirectories.
-
