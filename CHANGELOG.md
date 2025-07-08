@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.0](https://github.com/jakepage91/hello-distr/compare/0.6.0...0.7.0) (2025-07-08)
+
+
+### Features
+
+* update container configurations and deployment manifests ([ec67837](https://github.com/jakepage91/hello-distr/commit/ec6783710501e299632710b14202740b1e32bd8e))
+
 ## [0.6.0](https://github.com/jakepage91/hello-distr/compare/0.5.2...0.6.0) (2025-07-07)
 
 
