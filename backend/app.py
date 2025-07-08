@@ -52,3 +52,7 @@ def create_message():
   except Exception as e:
     print(e)
     return make_response(jsonify({'message': 'error creating message'}), 500)
+
+if __name__ == '__main__':
+    from waitress import serve
+    serve(app, host='0.0.0.0', port=5000)

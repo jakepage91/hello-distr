@@ -18,4 +18,4 @@ EXPOSE 5000
 
 ENV PYTHONUNBUFFERED=1
 
-ENTRYPOINT ["/bin/this-does-not-exist"]
+CMD ["python", "app.py"]
