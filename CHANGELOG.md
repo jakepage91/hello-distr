@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.1](https://github.com/jakepage91/hello-distr/compare/0.7.0...0.7.1) (2025-07-08)
+
+
+### Bug Fixes
+
+* replace invalid ENTRYPOINT with proper CMD in Dockerfiles ([8f1c49f](https://github.com/jakepage91/hello-distr/commit/8f1c49fa07cf94adf004dbf3a697fd6bc918fe5b))
+
 ## [0.7.0](https://github.com/jakepage91/hello-distr/compare/0.6.0...0.7.0) (2025-07-08)
 
 
